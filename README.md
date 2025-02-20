@@ -6,7 +6,7 @@ This Jupyter notebook performs an exploratory data analysis (EDA) of Uber drives
 
 ## Dataset
 
-The dataset used is "uberdrives.csv," which likely contains information about individual Uber trips, including start and end locations, times, purposes, and distances.
+The dataset used is "uberdrives.csv," which contains information about individual Uber trips, including start and end locations, times, purposes, and distances.
 
 ## Analysis Steps
 
@@ -29,12 +29,12 @@ The dataset used is "uberdrives.csv," which likely contains information about in
 
 * **Trip Purpose:** The most frequent trip purposes are "Meeting," "Meal/Entertain," and "Errand/Supplies," with a significant number categorized as "Not Applicable."
 * **Trip Category:** The data predominantly consists of "Business" trips.
-* **Location Analysis:** The analysis reveals the most frequent starting and ending locations for the trips, visualized using countplots. Cary appears as a significant starting location, with trip frequency by month also explored.
-* **Trip Distance (Miles):** A boxplot shows the distribution of trip distances, with annotations indicating quartiles, median, minimum, and maximum values.
+* **Location Analysis:** The analysis reveals the most frequent starting and ending locations for the trips, visualized using count plots. Cary appears as a significant starting location, with trip frequency by month also explored.
+* **Trip Distance (Miles):** A boxplot shows the distribution of trip distances, with annotations indicating quartiles, medians, minimums, and maximums.
 * **Trip Duration:** A new 'DURATION' column was calculated and visualized with a boxplot, showing the distribution of trip times in minutes. Some unusually long durations were noted.
-* **Day of the Week and Time of Day:** The number of trips varies across days of the week and hours of the day, with visualizations revealing peak travel times.
+* **Day of the Week and Time of Day:** The number of trips varies across days and hours of the day, with visualizations revealing peak travel times.
 * **Temporal Analysis:** Trips were analyzed by year and month, showing trends in travel frequency.
-* **Frequent Routes:** The notebook identifies and visualizes the most frequent routes taken, providing insights into popular travel patterns using both a textual summary and a heatmap.
+* **Frequent Routes:** The notebook identifies and visualizes the most frequent routes taken, providing insights into popular travel patterns using a textual summary and a heatmap.
 
 
 ## Usage
